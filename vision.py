@@ -11,8 +11,8 @@ from viam.media.utils.pil import viam_to_pil_image
 
 async def connect():
     opts = RobotClient.Options.with_api_key( 
-        api_key='iqr8me7dpa5f0oxwtkdnn88f9ja07x9v',
-        api_key_id='ece56106-2f96-4724-bee3-35a3167b3d2c'
+        api_key=os.getenv('VIAM_API_KEY'),
+        api_key_id=os.getenv('VIAM_API_KEY_ID')
     )
     return await RobotClient.at_address('viamvision-main.ei59t0va5a.viam.cloud', opts)
 
