@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+set -o errexit
+set -o nounset
+set -o pipefail
+
+# launch a VIAM vision component using the MacBook Pro webcam
+viam-server -config ./viam-viamvision-main.json
