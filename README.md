@@ -8,6 +8,7 @@ service to implement a simple object detector.<br>
 Now that we have implemented our vision service, we would like you to implement our data
 capture service to store camera frames into the cloud. How could we use this data to possibly
 create a custom model? </br>
+* https://docs.viam.com/fleet/data-management/
 
 ## Task 3: Modular Registry
 When working with customers, we often come across a wide variety of hardware components
@@ -25,6 +26,8 @@ is set to 1 if our detection has a person and 0 if no person is detected.
 The goal of this exercise is to later show and explain how simple and fast you / our customers
 can do this with the Viam platform.</br>
 
+* https://docs.viam.com/how-tos/train-deploy-ml/
+
 ## Task 4: Describe Your Work
 We would like you to give a short presentation (10-15 minutes) on your progress and results.
 Please include:
@@ -40,3 +43,4 @@ Please include:
 ### Sources
 * Installation guide - https://docs.viam.com/installation/viam-server-setup/#install-viam-server
 * Person detection example - https://docs.viam.com/tutorials/projects/send-security-photo/
+* https://docs.viam.com/how-tos/detect-people/
