@@ -2,9 +2,9 @@
 
 ### Setup and run
 * Activate the virtual environment with```source viam/bin/activate```
-* Install needed Python packages with ```pip install requirements.txt```
+* Install needed Python packages with ```pip install -r requirements.txt```
 * Make sure launch script is executable with ```chmod u+x launch_webcam_server```, launch server with  ```./launch_webcam_server```
-* Run the person detector with ```python vision_detect.py```
+* Wait for the vision server to boot up, and then run the person detection classifier with ```python vision_detect.py```
 
 ### ASSIGNMENT
 ## Task 1: Vision
