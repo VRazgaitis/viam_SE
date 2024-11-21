@@ -39,6 +39,7 @@ Please include:
 * Activate the virtual environment with```source viam/bin/activate```
 * Install needed Python packages with ```pip install requirements.txt```
 * Make sure launch script is executable with ```chmod u+x launch_webcam_server```, launch server with  ```./launch_webcam_server```
+* Run the person detector with ```python vision_detect.py```
 
 ### Sources
 * Installation guide - https://docs.viam.com/installation/viam-server-setup/#install-viam-server
