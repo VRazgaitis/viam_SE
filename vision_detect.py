@@ -26,7 +26,8 @@ async def person_detect():
 
     This function connects to a VIAM cloud-hosted robot client, captures an image using
     the specified camera, and uses an image classification service to analyze the image 
-    for the presence of a person. It evaluates detections with a confidence threshold of 80%. 
+    for the presence of a person. It evaluates detections with a confidence threshold 
+    of 80%.
 
     Returns:
         int: 1 if a person is detected with at least 80% confidence, 0 otherwise.
