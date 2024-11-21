@@ -1,4 +1,12 @@
-### VR Viam Solutions Engineer
+### VR Viam Solutions Engineer Project
+
+### Setup and run
+* Activate the virtual environment with```source viam/bin/activate```
+* Install needed Python packages with ```pip install requirements.txt```
+* Make sure launch script is executable with ```chmod u+x launch_webcam_server```, launch server with  ```./launch_webcam_server```
+* Run the person detector with ```python vision_detect.py```
+
+### ASSIGNMENT
 ## Task 1: Vision
 Using a camera, this could be the one on your laptop, or any USB camera. We would like to see
 you implement a basic camera component in Viam and expand on it to make use of our vision
@@ -35,11 +43,6 @@ Please include:
 * Code samples
 * Any notes on various approaches attempted
 
-### Setup and run
-* Activate the virtual environment with```source viam/bin/activate```
-* Install needed Python packages with ```pip install requirements.txt```
-* Make sure launch script is executable with ```chmod u+x launch_webcam_server```, launch server with  ```./launch_webcam_server```
-* Run the person detector with ```python vision_detect.py```
 
 ### Sources
 * Installation guide - https://docs.viam.com/installation/viam-server-setup/#install-viam-server
